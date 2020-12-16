@@ -41,10 +41,10 @@ let randomNumber = (Math.random() * 100);
 let wholeNumber = (Math.round(randomNumber));
 let usersNumber = prompt('Введите любое число');
 if (wholeNumber < usersNumber) {
-    alert("Первое число меньше второго.", wholeNumber, usersNumber)
+    alert(`Первое число меньше второго. ${wholeNumber} и ${usersNumber}`)
 }
 else {
-    alert("Первое число не меньше второго.", wholeNumber, usersNumber)
+    alert(`Первое число не меньше второго. ${wholeNumber} и ${usersNumber}`)
 }
 
 
